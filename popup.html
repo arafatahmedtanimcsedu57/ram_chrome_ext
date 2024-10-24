@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAM Usage</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body class="p-3 bg-light">
+  <div class="max-w-xs mx-auto">
+    <h5 class="fw-bold text-muted text-nowrap mb-4">RAM Usage</h5>
+    <div class="flex flex-col gap-3 border rounded p-3">
+        <div id="ram-usage" class="badge bg-success text-white">Calculating...</div>
+        <div id="ram-alocation" class="border border-primary rounded badge bg-white text-primary">Calculating...</div>
+        <div id="ram-limit" class="border border-info rounded badge bg-white text-info">Calculating...</div>
+    </div>
+
+    <div class="flex justify-content-end">
+        <button id="refresh" class="btn btn-sm btn-primary fw-bold mt-4">
+            Refresh
+        </button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

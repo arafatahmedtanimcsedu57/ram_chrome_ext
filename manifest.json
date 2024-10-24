@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Website RAM Usage",
+    "version": "0.1",
+    "description": "Displays the RAM usage of a webpage.",
+    "permissions": ["tabs", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "ram.png"
+    }
+  }
+  
